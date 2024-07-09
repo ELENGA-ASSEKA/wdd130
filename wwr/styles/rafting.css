@@ -33,7 +33,7 @@ body{
 
 nav a:link{
     display: flex;
-    grid-template-columns: 200px 1fr 1fr 1fr;
+    grid-template-columns: 400px 1fr 1fr 1fr;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -43,7 +43,7 @@ header{
     display: flex;
     justify-content: center;
     background-color: greenyellow;
-    
+position: relative;
     width: 100%;
     justify-content: space-evenly;
     align-items: center;
@@ -83,7 +83,7 @@ article{
 }
 .hero article img{
     float: right;
-    width: 200px;
+    width: 100px;
 }
 .logo img{
     margin: 0 0.25rem 0 1rem;
