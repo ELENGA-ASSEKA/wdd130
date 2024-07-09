@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --heading-font:Montserrat,serif;
+    --paragraph-font:Montserrat,serif;
+
+
+    --nav-background-color:#10aa;
+    --nav-link-color:#eee;
+    --nav-hover-link-color:#77f;
+    --nav-hover-baackgroung-color:#999;
+
+}
+h1,h2{
+    font-family: var(--heading-font);
+    color: aqua;
+}
+nav{
+    background-color: whitesmoke;
+    font-size: 25px;
+    display: flex;
+    max-width: 0;
+}
+p{
+   padding: 0;
+   color: red;
+    text-decoration-color: #999;
+}
+body{
+   font-family: var(--nav-link-color);
+   width: 100%;
+   padding: 15px;
+}
+
+nav a:link{
+    display: flex;
+    grid-template-columns: 200px 1fr 1fr 1fr;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.7rem;
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-color: greenyellow;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+
+    
+    }
+img{
+    display:block;
+    margin: 10px;
+}
+div{
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+h1{
+    position: absolute;
+    top: 5px;
+    max-width: 75%;
+    left: 30%;
+    background-color: #999;
+}
+article{
+    
+    background-color: #0000FF80;
+    max-height: 25%;
+    position: absolute;
+    top: 220px;
+    max-width: 85%;
+    left: 8.5%;
+
+
+}
+article img{
+    float: right;
+}
+.logo img{
+    margin: 0 0.25rem 0 1rem;
+    width: 150px;
+    height: auto;
+}
+.grid-container{
+    display: flex;
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    
+
+}
+a{
+    background-color: black;
+    padding: 1px;
+    border: 2px solid blue;
+    margin: 0;
+    text-align: center;
+   
+}
+.history{
+    background-color: whitesmoke;
+    margin: 20px;
+    padding: 30px;
+    max-width: 100%;
+}
+.adventure{
+    display: flex;
+    background-color: #999;
+    margin: 10px;
+    padding: 15px;
+    max-width: 100%;
+  
+    
+   
+}
+.adventure img{
+    max-width: 100%;
+}
+.footer{
+    display: flex;
+    background-color: yellow;
+    margin: auto;
+    padding: 5px;
+    align-items: center;
+    justify-content: left;
+
+ 
+}
+
+footer img{
+    height: 30px;
+    
+    
+}
+h2{
+    font-size: 20px;
+    text-align: center;
+}
+.adventure h2{
+    align-self: flex-start;
+}

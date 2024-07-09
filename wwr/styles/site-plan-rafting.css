@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: var(--paragraphe-font--);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root{
+    --primery-color:#8ecae6 ;
+    --secondary-color:#219ebc;
+    --accent1-color:#023047;
+    --accent2-color:#ffb703;
+    --accent3-color:#fb8500;
+    --heading-font:Montserrat,serif;
+    --paragraph-font:montserrat,serif
+
+
+    var(--nav-background-color):#fff;
+    --nav-link-color:#10cfeb;
+    --nav-hover-link-color:#00430b;
+    --nav-hover-background-color:#999000;
+
+
+}
+body{
+    font-family: var(--paragraphe-font--);
+    max-width: 960px;
+    padding: 20px;
+}
+h1,h2,h3,h4,h5{
+    font-family: var(--heading-font);
+    color: var(--primery-color);
+}
+header{
+    padding: 20px;
+    background-color: var(--secondary-color);
+}
+
+p{
+    padding: 25px;
+}
+nav{
+    background-color: var(--secondary-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a{
+    display: block;
+    color: var(--accent3-color);
+    text-decoration: none;
+    padding: 1rem;
+    
+}
+nav a:link, nav a:visited{
+    color: var(--nav-hover-link-color);
+}
+nav a:hover{
+    color: var(--accent3-color);
+    background-color: var(--accent1-color);
+}
+img{
+    text-align: center;
+}
