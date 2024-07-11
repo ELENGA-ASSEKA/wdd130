@@ -16,7 +16,7 @@ h1,h2{
 }
 nav{
     background-color: whitesmoke;
-    font-size: 25px;
+    
     display: flex;
     max-width: 0;
 }
@@ -26,28 +26,34 @@ p{
     text-decoration-color: #999;
 }
 body{
-   font-family: var(--nav-link-color);
+  
    width: 100%;
    padding: 15px;
 }
 
 nav a:link{
-    display: flex;
-    grid-template-columns: 400px 1fr 1fr 1fr;
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr 1fr;
     color: white;
     text-align: center;
     text-decoration: none;
-    padding: 0.7rem;
+    padding: 3px;
+  
 }
 header{
-    display: flex;
-    padding: 20px;
+    display: grid;
+    grid-template-columns: 200px auto;
+    
+    margin: 5px;
+    border: 3px solid green;
     justify-content: center;
     background-color: greenyellow;
     position: relative;
-    width: 100%;
+    width: 965px;
     justify-content: space-evenly;
     align-items: center;
+    
+   
 
     
     }
@@ -60,8 +66,10 @@ div{
 }
 
 .hero img {
+    border: 3px solid green;
+    margin: 5px;
     display: block;
-    width: 970px;
+    width: 965px;
     height: auto;
   }
 h1{
@@ -74,23 +82,20 @@ h1{
 article{
     
     background-color: #0000FF80;
-    max-height: 25%;
+    width: 85%;
     position: absolute;
     top: 220px;
-    max-width: 85%;
-    left: 8.5%;
-
-
+    border: 3px solid green;
+   left: 7.5%;
 }
 .hero article img{
     float: right;
     width: 100px;
 }
 .logo img{
-    margin: 0 0.25rem 0 1rem;
-    width: 80px;
-    height: auto;
-    padding: 1px;
+    width: 50px;
+    padding: 3px;
+   
 }
 .grid-container{
     display: flex;
@@ -111,12 +116,13 @@ a{
 }
 .history{
     background-color: whitesmoke;
-   
+    border: 3px solid green;
+    margin: 5px;
     max-width: 100%;
 }
 .adventure{
     display: flex;
-    background-color: #999;
+    
     padding: 10px;
     max-width: 100%;
   
@@ -127,18 +133,22 @@ a{
     max-width: 100%;
 }
 footer{
-    display: flex;
-    grid: 200px;
-    grid-template-columns: 60px 90px;
+    display: grid;  
+    grid-template-columns: 600px 1fr ;
     background-color: yellow;
+    border: 3px solid green;
+    margin: 5px;
+    align-items: center;
 
  
 }
 
 footer img{
+    
     height: 15px;
-    
-    
+    padding: 3px;
+
+   
 }
 h2{
     font-size: 20px;
@@ -146,4 +156,20 @@ h2{
 }
 .adventure h2{
     align-self: flex-start;
+}
+.advent{
+    background-color: #999;
+    border: 3px solid green;
+    margin: 5px;
+}
+.sociallinks{
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr;
+    padding: 5px;
+    
+   
+}
+footer p{
+    position: relative;
+    left: 50px;
 }
