@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Merriweather, Geagia, serif;
+    font-size: 1rem;
+    color: aliceblue;
+    background-color: blueviolet;
+    order: 3,2,1,4;
+}
+header{
+    margin: auto;
+    text-align: center;
+    width: 600px;
+}
+h1{
+    font-size: 1rem;
+    margin: 1em;
+    color: white;
+    text-align: center;
+}
+form{
+    display: grid;
+    margin: 0 auto;
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    border-radius: 0,5rem;
+    background-color: blue;
+    width: 600px;
+    padding: 30px;
+    justify-content: center;
+}
+label{
+    margin:0 auto;
+    padding: 0;
+    
+    
+}
+input, label, button, textarea, select{
+    font-size: 15px;
+    border: 20px;
+    width: 500px;
+    padding: 1px;
+    
+}
+input{
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.column{
+    display: grid;
+    align-items: center;
+    
+    padding: 1rem;
+    grid-template-columns: 1fr 2fr;
+    font-size: 1.5em;
+}
+button{
+    
+    background-color: aquamarine;
+    border-radius: .85%;
+}
