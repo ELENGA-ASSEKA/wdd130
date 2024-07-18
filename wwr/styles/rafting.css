@@ -130,22 +130,15 @@ a{
 }
 footer{
     display: grid;  
-    grid-template-columns: 600px 1fr ;
+    grid-template-columns: 600px 1fr 1fr ;
     background-color: yellow;
     border: 3px solid green;
     margin: 5px;
-    align-items: center;
-
- 
-}
-
-footer img{
+    align-items: flex-end;
     
-    height: 15px;
-    padding: 3px;
-
-   
 }
+
+
 h2{
     font-size: 20px;
     text-align: center;
@@ -165,10 +158,14 @@ h2{
     
    
 }
-footer p{
-    position: relative;
-    left: 50px;
+footer p, footer img{
+    display: grid;
+    grid-auto-columns: 200px 1fr 1fr 2fr;
+    height: 20px;
+    width: 20%;
+
 }
+
 .map{
     position: relative;
     margin: 20px;
@@ -179,3 +176,21 @@ iframe{
 .contact{
     display: grid;
 }
+.happy-clients{
+    position: relative;
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr;
+    flex-wrap: wrap;
+    max-width: 965px;
+    background-color: #999;
+    border: 3px solid green;
+    margin: 2px;
+    color: green;
+    left: 0.3%;
+}
+.happy-clients img{
+    
+    max-width: 100%;
+}
+
+
