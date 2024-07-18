@@ -169,3 +169,13 @@ footer p{
     position: relative;
     left: 50px;
 }
+.map{
+    position: relative;
+    margin: 20px;
+}
+iframe{
+    max-width: 350px;
+}
+.contact{
+    display: grid;
+}
