@@ -45,7 +45,7 @@ header{
     grid-template-columns: 200px auto;
     
     margin: 5px;
-    border: 3px solid green;
+    
     background-color: greenyellow;
     position: relative;
     width: 965px;
@@ -57,8 +57,9 @@ header{
     
     }
 
-div{
-    position: relative;
+.contact{
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr;
 }
 
 .hero img {
@@ -103,11 +104,7 @@ article{
 
 }
 a{
-    background-color: gray;
     
-    border: 2px solid blue;
-    margin: 0;
-    text-align: center;
    
 }
 .history{
@@ -132,9 +129,9 @@ footer{
     display: grid;  
     grid-template-columns: 600px 1fr 1fr ;
     background-color: yellow;
-    border: 3px solid green;
     margin: 5px;
     align-items: flex-end;
+    max-width: 965px;
     
 }
 
@@ -156,13 +153,14 @@ h2{
     grid-template-columns: 100px 1fr 1fr;
     padding: 5px;
     
+    
    
 }
-footer p, footer img{
-    display: grid;
-    grid-auto-columns: 200px 1fr 1fr 2fr;
-    height: 20px;
-    width: 20%;
+ footer img{
+    position: relative;
+    padding: 5px
+    
+
 
 }
 
@@ -171,19 +169,23 @@ footer p, footer img{
     margin: 20px;
 }
 iframe{
-    max-width: 350px;
+    max-width: 370px;
 }
-.contact{
+.inbox input, textarea{
+    position: relative;
     display: grid;
+    font-size: 14px;
+    border: 2px solid rgb(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin: 3px;
+    padding: 0;
 }
 .happy-clients{
     position: relative;
     display: grid;
     grid-template-columns: 200px 1fr 1fr;
-    flex-wrap: wrap;
     max-width: 965px;
     background-color: #999;
-    border: 3px solid green;
     margin: 2px;
     color: green;
     left: 0.3%;
@@ -192,5 +194,47 @@ iframe{
     
     max-width: 100%;
 }
+form{
+    position: relative;
+    display: grid;
+    align-content: space-around;
+    justify-items: stretch;
+    min-height: 100vh;
+    background-color: #77f;
+    background-size: cover;
+    max-width: 530px;
+    padding: 2px;
+    border-radius: 5%;
+    left: 2%;
+}
+button{
+    position: relative;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    background-color: green;
+    text-align: center;  
+    width: 20%; 
+    left: 42%;
+    
+}
+.vertical-line{
+    background-color: black;
+    padding: 2px;
+    
+}
+.foot-contact{
+    display: grid;
+    padding: 2px;
+}
+.informations{
+    position: relative;
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    background-color: aquamarine;
+    max-width: 965px;
+    left: 0.5%;
+}
+
+
 
 
