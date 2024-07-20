@@ -6,6 +6,7 @@
     max-height: 100vh;
     
 }
+/*Body atrbutions*/
 body{
     position: relative;
     font-family: Merriweather, Geagia, serif;
@@ -15,6 +16,7 @@ body{
     min-height: 660px
     
 }
+/* Header atributions*/
 header{
     margin: auto;
     text-align: center;
@@ -26,6 +28,7 @@ h1{
     color: blue;
     text-align: center;
 }
+/* This allows to style the form elements*/
 form{
     position: relative;
     display: grid;
