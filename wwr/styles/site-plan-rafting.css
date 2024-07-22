@@ -10,24 +10,17 @@ body{
     --secondary-color:#219ebc;
     --accent1-color:#023047;
     --accent2-color:#ffb703;
-    --accent3-color:#fb8500;
     --heading-font:Montserrat,serif;
-    --paragraph-font:montserrat,serif
+    --paragraph-font:montserrat,serif;
 
 
-    var(--nav-background-color):#fff;
+    --nav-background-color:#fff;
     --nav-link-color:#10cfeb;
     --nav-hover-link-color:#00430b;
     --nav-hover-background-color:#999000;
-
-
 }
-body{
-    font-family: var(--paragraphe-font--);
-    max-width: 960px;
-    padding: 20px;
-}
-h1,h2,h3,h4,h5{
+
+h1,h2,h3,h4,h5,h6{
     font-family: var(--heading-font);
     color: var(--primery-color);
 }
@@ -46,7 +39,7 @@ nav{
 }
 nav a{
     display: block;
-    color: var(--accent3-color);
+    color: var(--accent2-color);
     text-decoration: none;
     padding: 1rem;
     
@@ -55,9 +48,30 @@ nav a:link, nav a:visited{
     color: var(--nav-hover-link-color);
 }
 nav a:hover{
-    color: var(--accent3-color);
+    color: var(--accent2-color);
     background-color: var(--accent1-color);
 }
 img{
     text-align: center;
 }
+.logo img{
+    position: relative;
+    max-width: 25%;
+    max-height: 15%;
+}
+tr{
+    background-color: gray;
+}
+.Primary{
+    background-color: #8ecae6;
+}
+.Secondary{
+    background-color: #219ebc;
+}
+.Accent1{
+    background-color: #023047;
+}
+.Accent2{
+    background-color: #ffb703;
+}
+
