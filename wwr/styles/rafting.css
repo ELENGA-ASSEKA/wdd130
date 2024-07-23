@@ -223,6 +223,10 @@ button{
     max-width: 45%;
     left: 60%;
 }
+.contact-page{
+    position: relative;
+    top: -100px;
 
+}
 
 
