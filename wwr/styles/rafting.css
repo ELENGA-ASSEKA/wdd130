@@ -139,17 +139,13 @@ h2{
 .sociallinks{
     display: grid;
     grid-template-columns: 100px 1fr 1fr;
-    padding: 5px;
-    
-    
+    padding: 5px;   
    
 }
  footer img{
     position: relative;
-    padding: 5px
-    
-
-
+    padding: 5px;
+    max-width: 55%;
 }
 
 .map{
@@ -222,7 +218,11 @@ button{
     max-width: 965px;
     left: 0.5%;
 }
-
+.facebook{
+    position: relative;
+    max-width: 45%;
+    left: 60%;
+}
 
 
 
