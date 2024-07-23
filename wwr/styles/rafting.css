@@ -35,7 +35,7 @@ body{
 nav a:link{
     display: grid;
     grid-template-columns: 100px 1fr 1fr 1fr;
-    color: white;
+    color: black;
     text-align: center;
     text-decoration: none;
     padding: 3px;
@@ -69,16 +69,16 @@ h1{
     position: absolute;
     top: 100px;
     width: 100%;
-    left: 80%;
+    left: 8%;
     
 }
 article{
     
     background-color: #0000FF80;
-    width: 100%;
+    
     position: absolute;
     top: 220px;
-   left: 13.5%;
+   left: 8%;
    border: 3px solid gray;
 }
 .hero article img{
