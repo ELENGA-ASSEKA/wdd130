@@ -228,5 +228,85 @@ button{
     top: -100px;
 
 }
+.advent-moments{
+    position: relative;
+    background-color: #999;
+    margin: 0;
+    padding: 20px;
+    
+}
+.chilling{
+    background-color: #77f;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    
+    
+    
+}
+section img{
+    max-width: 45%;
+    
+}
+.table{
+    background-color: #999;
+    margin: 1px;
+
+}
+table{
+    position: relative;
+    border: 2px solid rgb(0, 0, 0, 1);
+    align-items: center;
+    text-align: center;
+    left: 5.5%;
+
+}
+th{
+    background-color: aqua;
+    border: 1px solid rgb(0, 0, 0, 1);
+}
+td{
+    background-color: #10aa;
+    border: 1px solid rgb(0, 0, 0, 1);
+}
+.materials{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.materials-1{
+    background-color: #999;
+    margin: 1px;
+}
+.materials img{
+    max-width: 45%;
+}
+.mats-and-trips{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.details button{
+    position: relative;
+    text-align: center;
+    border-radius: 3px;
+    max-width: 110px;
+    margin: 30px;
+}
+.trips p{
+    position: relative;
+    text-align: center;
+}
+.materials h2{
+    position: relative;
+    top: 10px;
+}
+.trips{
+    position: relative;
+    width: 965px;
+    padding: 1em;
+    border: #999;
+    left: -1%;
+}
 
 
