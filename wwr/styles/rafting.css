@@ -168,7 +168,7 @@ iframe{
     position: relative;
     display: grid;
     grid-template-columns: 200px 1fr 1fr;
-    max-width: 965px;
+    width: 965px;
     background-color: #999;
     margin: 2px;
     color: green;
@@ -215,7 +215,7 @@ button{
     display: grid;
     grid-template-columns: 400px 1fr;
     background-color: aquamarine;
-    max-width: 965px;
+    width: 965px;
     left: 0.5%;
 }
 .facebook{
