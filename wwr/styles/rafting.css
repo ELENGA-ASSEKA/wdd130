@@ -178,7 +178,7 @@ iframe{
     
     max-width: 100%;
 }
-form{
+.contact-forms{
     position: relative;
     display: grid;
     align-content: space-around;
@@ -308,35 +308,60 @@ td{
     border: #999;
     left: -1%;
 }
+
 .home{
     position: relative;
     width: 965px;
     background-color: gray;
     padding: 0;
     left: 0.5%;
+    margin: 0;
 }
 .image img{
     position: relative;
     max-width: 965px;
     color: #77f;
-}.image h1{
-    position: relative;
-    top: -100%;
-    left: 350px;
 }
-.home-form form{
+.home-page-form{
     position: relative;
-    background: none;
-    padding: 0;
-    margin: 0;
-    max-width: none;
+    margin: 3px;
+    padding: 45px;
 }
 .home-grid{
     position: relative;
     display: grid;
-    grid-template-columns: 600px 3fr;
+    grid-template-columns: 300px 1fr 1fr;
     max-width: 965px;
     
 }
+.clt{
+    position: relative;
+    background-color: red;
+    color: black;
+    border-radius: 10%;
+    border: 10px;
+    left: 45%;
+    margin: 0;
+    
+
+}
+.title h1{
+    top: 70px;
+    z-index: 10;
+    
+    
+}
+.item img{
+    position: relative;
+    left: 30%;
+}
+.sub button{
+    position: absolute;
+    background:goldenrod;
+    width: 100px;
+    margin: 10px;
+    left: 70px;
+}
+
 
 
